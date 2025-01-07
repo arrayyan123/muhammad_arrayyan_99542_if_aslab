@@ -169,10 +169,10 @@ function WebsiteLayout({children}) {
                             </div>
                             <div className='flex flex-col w-1/2'>
                                 <h1 className="mt-6 text-black text-[20px] max-w-md black leading-relaxed font-bold">
-                                    Dummy Company
+                                    RayyanTech
                                 </h1>
                                 <p className='text-black'>
-                                    Kualitas, Kepercayaan, dan Kepuasan Pelanggan.
+                                    Inovasi Tanpa Batas, Masa Depan di Tangan Anda.
                                 </p>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ function WebsiteLayout({children}) {
                     <div className='flex md:flex-row items-center justify-center p-4 gap-2 flex-col my-2'>
                         <div className='border-b-2 border-gray-400'></div>
                         <h2 className='font-bold'>Made with ♡ by Muhammad Arrayyan Aprilyanto</h2>
-                        <h2>© copyright 2024 Dummy Company. all rights reserved</h2>
+                        <h2>© copyright 2025 RayyanTech. all rights reserved</h2>
                     </div>
                 </footer>
             </div>
