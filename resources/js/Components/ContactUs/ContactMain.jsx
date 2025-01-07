@@ -3,14 +3,13 @@ import React from "react";
 function ContactMain() {
     return (
         <div>
-            <section className="mb-32">
+            <section className="mb-32 ">
                 <div
                     id="map"
                     className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
                 >
-                    <iframe
-                        title="Google Map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
+                    <iframe 
+                        src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=universitas multimedia nusantara&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                         width="100%"
                         height="480"
                         style={{ border: 0 }}
@@ -18,7 +17,7 @@ function ContactMain() {
                         loading="lazy"
                     ></iframe>
                 </div>
-                <div className="container px-6 md:px-12">
+                <div className="container px-6 md:px-12 mx-auto">
                     <div
                         className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300"
                     >
@@ -60,7 +59,7 @@ function ContactMain() {
                                         </label>
                                     </div>
                                     <button type="button"
-                                        class="mb-6 w-full rounded bg-sky-500 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal   lg:mb-0">
+                                        class="mb-6 w-full bg-blue-400 rounded bg-sky-500 text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal lg:mb-0">
                                         Send
                                     </button>
                                 </form>
@@ -126,8 +125,8 @@ function ContactMain() {
                                             <div className="ml-6">
                                                 <p className="mb-2 font-bold">Address</p>
                                                 <p className="text-sm text-neutral-500">
-                                                    1234 Main St, <br />
-                                                    City, State, ZIP
+                                                Multimedia Nusantara University, <br />
+                                                Jalan Scientia Boulevard Gading, Curug Sangereng, Serpong, Kabupaten Tangerang, Banten 15810
                                                 </p>
                                             </div>
                                         </div>
@@ -162,7 +161,6 @@ function ContactMain() {
                                     </div>
                                 </div>
                             </div>
-                            {/* End Contact Info */}
                         </div>
                     </div>
                 </div>

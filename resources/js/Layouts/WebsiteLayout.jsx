@@ -92,7 +92,7 @@ function WebsiteLayout({children}) {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                                     </svg>
                                 </li>
-                                <li><a className={`text-sm ${navbarText} hover:text-gray-500 whitespace-nowrap flex-shrink-0`} href={`/`}>About Us</a></li>
+                                <li><a className={`text-sm ${navbarText} hover:text-gray-500 whitespace-nowrap flex-shrink-0`} href={`/aboutus`}>About Us</a></li>
                                 <li className="text-gray-300 md:block hidden">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />

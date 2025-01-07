@@ -24,6 +24,7 @@ Route::get('/', [PagesController::class, 'home'])->name('home.page');
 Route::get('/blog', [PagesController::class, 'blog'])->name('blog.page');
 Route::get('/product', [PagesController::class, 'product'])->name('product.page');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact.page');
+Route::get('/aboutus', [PagesController::class, 'about'])->name('about.page');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

@@ -19,4 +19,7 @@ class PagesController extends Controller
     public function contact(){
         return Inertia::render('Posts/Contact');
     }
+    public function about(){
+        return Inertia::render('Posts/AboutUs');
+    }
 }
