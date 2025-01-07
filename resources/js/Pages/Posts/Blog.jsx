@@ -20,7 +20,7 @@ function Blog() {
     };
     return (
         <WebsiteLayout>
-            <Head title='Home' />
+            <Head title='blog' />
             {!isBlogSelected && <HeroBlog onBlogSelect={handleBlogSelect} />}
             <MainBlog
                 isBlogSelected={isBlogSelected}

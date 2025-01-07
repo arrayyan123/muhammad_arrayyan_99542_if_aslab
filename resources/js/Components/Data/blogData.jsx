@@ -47,7 +47,7 @@ export const blogData = [
         description: "This is a description for Blog Post 5.\n\nMore details about Blog Post 5.",
         created_at: "2025-01-01T18:00:00",
         images: [
-            { path: "images/blog5-1.jpg", title: "Image 1 of Blog 5" }
+            { path: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww", title: "Image 1 of Blog 5" }
         ],
     },
 ];

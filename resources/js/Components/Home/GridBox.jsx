@@ -24,10 +24,12 @@ function GridBox() {
             <div className='py-10 h-auto w-auto'>
                 <div className='flex lg:flex-row flex-col gap-4'>
                     <div className='flex'>
-                        <div className='w-full p-10 relative cursor-pointer overflow-hidden rounded-[40px] lg:h-[695px] h-auto flex bg-gradient-to-b from-[#505050] to-[#191919]'>
-                            <h1 className='lg:text-[60px] text-[30px] hover:motion-preset-blur-right w-[70%] z-20 text-white font-bold'>Terdapat banyak hal untuk anda</h1>
-                            <img className='absolute hover:motion-preset-blur-right top-[10%] -right-[40%] z-0' src={abstract01} alt="" />
-                        </div>
+                        <Link href='/product'>
+                            <div className='w-full p-10 relative cursor-pointer overflow-hidden rounded-[40px] lg:h-[695px] h-auto flex bg-gradient-to-b from-[#505050] to-[#191919]'>
+                                <h1 className='lg:text-[60px] text-[30px] hover:motion-preset-blur-right w-[70%] z-20 text-white font-bold'>Terdapat banyak hal untuk anda</h1>
+                                <img className='absolute hover:motion-preset-blur-right top-[10%] -right-[40%] z-0' src={abstract01} alt="" />
+                            </div>
+                        </Link>
                     </div>
                     <div className='flex flex-col h-full w-full gap-4 justify-end'>
                         <Link href='/blog'>
@@ -35,7 +37,7 @@ function GridBox() {
                                 <div
                                     className="relative z-50 text-white hover:font-bold cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
                                     <span className='text-[40px]'>Our Blog</span>
-                                </div>                                 
+                                </div>
                                 <IonIcon className='absolute top-5 right-6 ease-in-out text-[40px] rotate-45 ' name='arrow-up' />
                                 <img className='absolute hover:motion-preset-blur-left xl:-top-1/4 top-1/4 -rotate-6 left-1/4 z-0' src={abstract02} alt="" />
                             </div>

@@ -12,10 +12,10 @@ function HeroAbout() {
                 <div class="sm:w-1/2 p-5">
                     <div class="text">
                         <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">About us</span>
-                        <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">About <span class="text-indigo-600">Our Company</span>
+                        <h2 class="my-4 font-bold text-3xl  sm:text-4xl motion motion-preset-shrink">About <span class="text-indigo-600 motion motion-preset-shrink motion-delay-300">Our Company</span>
                         </h2>
                         <p class="text-gray-700">
-                            Kami adalah perusahaan teknologi inovatif yang berkomitmen untuk menghadirkan solusi digital terbaik bagi pelanggan dan mitra bisnis kami. Dengan fokus pada pengembangan teknologi modern, kami menciptakan produk dan layanan yang membantu mempermudah kehidupan, meningkatkan efisiensi, dan mendorong transformasi digital di berbagai industri.
+                            Rayyan Tech adalah perusahaan yang menggabungkan keahlian di bidang teknologi informasi dan non-teknologi untuk menyediakan solusi inovatif dan berkelanjutan bagi klien kami di berbagai industri.
                         </p>
                     </div>
                 </div>
